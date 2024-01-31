@@ -8,7 +8,6 @@ listOfQuestions = [
 
 print( listOfQuestions[0] )
 
-
 def displayQuestionAndResult( question, answer ):
     score = 0
     ans= input ( question )
