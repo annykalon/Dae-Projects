@@ -7,7 +7,7 @@ listOfQuestions = [
 ]
 
 print( listOfQuestions[0] )
-
+# When the answer is correct the user will gain a point and the screen will display "correct".
 def displayQuestionAndResult( question, answer ):
     score = 0
     ans= input ( question )
