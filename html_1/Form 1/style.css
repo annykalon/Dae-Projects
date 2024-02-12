@@ -4,7 +4,9 @@
     font-family: 'poppins' , sans-serif; 
     box-sizing: border-box;
 }
+
 .hero{
+
      width: 100;
      height: 100vh;
      background-image: linear-gradient(rgba(0,0,0,0.7), #5c2dd1), url(Form\ 1s.png);
@@ -48,4 +50,19 @@ button{
     border: 1px solid #fff;
     width: 100%;
     cursor: pointer;
+}
+nav{
+    /* Shorthand */
+    /* border: 1px solid black;  */
+
+    /* Long hand */
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;;
+}
+
+footer{
+    color: bisque;
+    border-color: red;
+     
 }
