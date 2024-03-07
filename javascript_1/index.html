@@ -1,11 +1,50 @@
 <!DOCTYPE html>
-<html>
-    <head> 
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Candle Landing Page</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body onload="loadCandlePage()">
+  <header>
+    <h1 id="pageTitle">RIETY: Scents that activate senses</h1>
+    <p id="pageDescription">Our candles will always offer ambiance, aroma and relaxation.</p>
+  </header>
+  
+  <main>
+    <section id="featured-candles">
+      <h2>Featured Candles</h2>
+      <div class="candle">
+        <img src="/Users/annykalonda/Library/Messages/Attachments/9d/13/974BE741-1833-406E-8306-2B6856FCB700/Image 3-7-24 at 8.26 AM.heic" alt="Candle 1">
+        <h3>A Sweet Bloom</h3>
+        <p>Strawberry, Guva & Rose</p>
+        <button onclick="shopNow('Candle Name 1')">Shop Now</button>
+      </div>
+      <div class="candle">
+        <img src="/Users/annykalonda/Library/Messages/Attachments/33/03/104BD2DA-0601-438A-9ABA-12054AA0F8DE/Image 3-7-24 at 11.54 AM.heic" alt="Candle 2">
+        <h3>Symphony</h3>
+        <p>Pinage, Sage, Peppermint & Cucumber</p>
+        <button onclick="shopNow('Candle Name 2')">Shop Now</button>
+      </div>
+      <div class=" candle">
+        <img src="candle.3jpg" alt="Candle 3">
+      </div>
 
-    </head>
-    <body>
-        <script src="script.js">
-            
-        </script>
-    </body>
+      </div>
+    </section>
+    
+    <section id="about-us">
+      <h2>About Us</h2>
+      <p>We are passionate candle makers based in New Haven, dedicated to creating candles that not only light up your space but also fill it with delightful fragrances. Our journey began with a love for crafting and a desire to bring warmth and coziness to every home. Each candle is carefully hand-poured and made with high-quality, eco-friendly materials. Whether you're looking to relax after a long day or set the mood for a special occasion, our candles are perfect for creating the ambiance you desire.</p>
+      <p></p>
+    </section>
+  </main>
+  
+  <footer>
+    <p>&copy; Riety . All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
 </html>
