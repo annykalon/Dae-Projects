@@ -1,71 +1,127 @@
 
 /* General Styles */
 body {
-    font-family: 'Montserrat', sans-serif; /* External font */
-    background-color: #fdfdfd; /* Light background color */
-}
-
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    background-color: #f0f5f9; /* Soft blue-green background */
+    color: #333; /* Dark gray text color */
+  }
+  
+  header {
+    background-color: #6bb9f0; /* Light blue header background */
     padding: 20px;
-}
-
-/* Header Styles */
-.header {
     text-align: center;
-    margin-bottom: 50px;
-}
-
-.logo {
-    width: 150px;
-}
-
-/* Candle Styles */
-.candle {
-    background-color: #fff; /* White background */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
-    border-radius: 10px; /* Rounded corners */
+  }
+  
+  #pageTitle {
+    font-size: 2.5em;
+    margin: 0;
+    color: #fff; /* White text color */
+  }
+  
+  #pageDescription {
+    font-size: 1.2em;
+    margin: 10px 0;
+    color: #fff; /* White text color */
+  }
+  
+  main {
     padding: 20px;
+  }
+  
+  section {
     margin-bottom: 30px;
-}
-
-.candle img {
-    max-width: 100%;
-}
-
-/* Title Styles */
-.title {
-    font-size: 28px;
-    color: #333;
-    margin-bottom: 10px;
-}
-
-.description {
-    font-size: 16px;
-    color: #666;
-}
-
-/* Button Styles */
-.button {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #ff5c5c; /* Red button color */
-    color: #f78d0a;
-    text-decoration: none;
+  }
+  
+  h2 {
+    color: #4ca06d; /* Green header color */
+  }
+  
+  .candle {
+    background-color: #fff; /* White background for candle section */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Light shadow */
+  }
+  
+  button {
+    background-color: #f0ad4e; /* Orange button background */
+    color: #fff; /* White text color */
+    border: none;
+    padding: 8px 20px;
     border-radius: 5px;
+    cursor: pointer;
     transition: background-color 0.3s ease;
-}
-
-.button:hover {
-    background-color: #e64848; /* Darker red on hover */
-}
-
-/* Media Queries */
-/* Desktop */
-@media only screen and (min-width: 1024px) {
-    .container {
-        padding: 40px;
-    }
-
+  }
+  
+  button:hover {
+    background-color: #ec971f; /* Darker orange on hover */
+  }
+  
+  footer {
+    background-color: #6bb9f0; /* Light blue footer background */
+    padding: 20px;
+    text-align: center;
+    color: #fff; /* White text color */
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff; /* White text color for navigation links */
+    text-decoration: none;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  #multimedia-content {
+    background-color: #fff; /* White background for multimedia content */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Light shadow */
+  }
+  
+  video,
+  audio {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  /* Customized HTML Table Styles */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+  }
+  
+  table, th, td {
+    border: 1px solid #ddd; /* Light gray border */
+  }
+  
+  caption {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  th, td {
+    padding: 10px;
+  }
+  
+  th {
+    background-color: #4ca06d; /* Green header color */
+    color: #fff; /* White text color */
+  }
+  
+  td {
+    background-color: #f0f5f9; /* Soft blue-green background for table cells */
+  }
   
