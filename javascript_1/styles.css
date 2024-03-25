@@ -124,4 +124,42 @@ body {
   td {
     background-color: #f0f5f9; /* Soft blue-green background for table cells */
   }
+
+  #backgroundFlowers {
+    background-image: url("Birthday-Flowers-Colors.jpg");
+  }
+
+  #pageDescription {
+    text-shadow: 1px 1px 2px black;
+  }
+
+  p, h1 {
+    font-family: "Playfair Display", serif;
+  }
+
+/* For testing purposes  */
+  /* Small devices */
+  @media (min-width: 600px) {
+    p {
+      color: red;
+    }
+  }
+
+    /* Medium devices */
+    @media (min-width: 768px) {
+      p {
+        color: blue;
+      }
+    }
+
+      /* Small devices */
+  @media (min-width: 992px) {
+    p {
+      color: green;
+    }
+  }
+
+  .makeWhite {
+    color: white;
+  }
   

@@ -4,6 +4,31 @@ const MAX_DISPLAYED_CANDLES = 4; // Maximum number of candles to display
 // Function to display a popup when "Shop Now" button is clicked
 function displayShopPopup(candleName) {
   alert("You clicked Shop Now for " + candleName);
+  return true;
+}
+
+var allTableHeadings = document.getElementsByTagName("th");
+
+allTableHeadings[0].style.color = "pink";
+allTableHeadings[1].style.color = "pink";
+allTableHeadings[2].style.color = "pink";
+
+/* Cling on the first th and making it bigger */
+allTableHeadings[0].onclick = function(){
+  this.removeAttribute("style");
+  allTableHeadings[0].setAttribute("class", "makeWhite")
+}
+
+/* Cling on the first th and making it bigger */
+allTableHeadings[1].onclick = function(){
+  this.removeAttribute("style");
+  allTableHeadings[0].setAttribute("class", "makeWhite")
+}
+
+/* Cling on the first th and making it bigger */
+allTableHeadings[2].onclick = function(){
+  this.removeAttribute("style");
+  allTableHeadings[0].setAttribute("class", "makeWhite")
 }
 
 // Function to load candles
@@ -23,8 +48,8 @@ function loadCandles() {
   featuredCandlesSection.innerHTML = '';
 
   // Loop through candles data and add them to the featured candles section
-  for (let i = 0; i < Math.min(candlesData.length, MAX_DISPLAYED_CANDLES); i++) {
-    const candleData = candlesData[i];
+  for (let currenIndex = 0; currenIndex < Math.min(candlesData.length, MAX_DISPLAYED_CANDLES); currenIndex++) {
+    const candleData = candlesData[currenIndex];
 
     // Create candle element
     const candleDiv = document.createElement('div');
@@ -129,4 +154,6 @@ setTimeout(function() {
   outputMessage.textContent = "Color change interval cleared after 5 seconds.";
   document.body.appendChild(outputMessage);
 }, 5000);
+
+
 
